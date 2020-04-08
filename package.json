@@ -1,0 +1,15 @@
+{
+  "name": "coronaviruslivecounterperu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass ./src/sass/main.scss ./src/css/styles.css -w"
+  },
+  "author": "StevenACZ",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
