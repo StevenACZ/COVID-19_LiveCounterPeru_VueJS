@@ -1,0 +1,27 @@
+// CARD
+.card {
+  color: var(--clr-primary);
+  text-align: center;
+}
+
+.subCard {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-secondary);
+  padding: 1rem;
+  margin: .5rem;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 9rem;
+
+  &__Container {
+    display: grid;
+    grid-template-columns: repeat(3, 15rem);
+  }
+    
+  &__subTitle {
+    margin-top: .5rem;
+  }
+}

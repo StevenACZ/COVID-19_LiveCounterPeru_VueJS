@@ -1,0 +1,84 @@
+:root {
+  --ff-primary: 'Roboto', sans-serif;
+  --fw-reg: 300;
+  --fw-bold: 900;
+  --clr-primary: #ffac41;
+  --clr-secondary: #323232;
+  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+        0.125em 0.125em 0.25em rgba(0,0,0,.15); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none; }
+
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+strong {
+  font-weight: var(--fw-bold); }
+
+body {
+  font-family: var(--ff-primary); }
+
+h1,
+h2,
+h3 {
+  font-weight: normal; }
+
+.card {
+  color: var(--clr-primary);
+  text-align: center; }
+
+.subCard {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-secondary);
+  padding: 1rem;
+  margin: .5rem;
+  align-items: center;
+  justify-content: center;
+  height: 9rem; }
+  .subCard__Container {
+    display: grid;
+    grid-template-columns: repeat(3, 15rem); }
+  .subCard__subTitle {
+    margin-top: .5rem; }
+
+.header {
+  background-color: #323232;
+  padding: 0 2rem;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__title {
+    color: #ffac41;
+    font-weight: bold; }
+  .header .buttonsContainer__button {
+    height: 100%;
+    border: 1px solid #ffac41;
+    padding: 1rem;
+    background-color: #323232;
+    color: #ffac41;
+    cursor: pointer; }
+
+.cardContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 6rem);
+  padding: 3rem; }

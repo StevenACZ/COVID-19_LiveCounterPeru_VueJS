@@ -1,0 +1,29 @@
+/////////////////////////////////////////////////////////////
+//--(HEADER)----------------------------------------------//
+///////////////////////////////////////////////////////////
+.header {
+  background-color: #323232;
+  padding: 0 2rem;
+
+  height: 6rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+    color: #ffac41;
+    font-weight: bold;
+  }
+
+  .buttonsContainer {
+    &__button {
+      height: 100%;
+      border: 1px solid #ffac41;
+      padding: 1rem;
+      background-color: #323232;
+      color: #ffac41;
+      cursor: pointer;
+    }
+  }
+}
